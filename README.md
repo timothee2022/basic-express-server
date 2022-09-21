@@ -1,31 +1,25 @@
-# LAB - Class xx
+# LAB - Class 2
 
-## Project: Project Name Here
+## Project: basic-express-server
 
-### Author: Student/Group Name
+### Author: Timothee Odushina
 
 ### Problem Domain  
 
-Concise Description of why this app exists
+From a business requirements standpoint, we will be building a basic Express server using best practices, including server modularization, use of middleware, and tests.
 
 ### Links and Resources
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [GitHub Repo) (https://github.com/timothee2022/basic-express-server)
+- [HEROKU](http://xyz.com)
 
 ### Setup
 
-#### `.env` requirements (where applicable)
-
-i.e.
-
-- `PORT` - Port Number
-- `DATABASE_URL` - URL to the running Postgres instance/db
+#### `.env` 
+- `PORT` - 3002
 
 #### How to initialize/run your application (where applicable)
-
-- e.g. `npm start`
+`npm start`
 
 #### How to use your library (where applicable)
 
@@ -35,11 +29,7 @@ i.e.
 - GET : `/hello` - specific route to hit
 
 #### Tests
+- npm test
+- I was not able to make one of my test(logger.test) pass
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
 
-#### UML
-
-Link to an image of the UML for your application and response to events
