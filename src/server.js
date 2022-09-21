@@ -15,6 +15,20 @@ app.get('/bad', (req, res, next) => {
   next('this is a bad route');
 });
 
+app.get('/person', (req, res, next) => {
+  let { personName } = req.query;
+
+  try{
+    if (personName){
+      res.status(200).send(`${personName} is awesome`);
+    } else {
+      res.status(200).send('What a great name');
+    }
+  } catch(err){
+    next(err.message);
+  }
+});
+
 app.use('*', notFound);
 
 app.use(errorHandler);
