@@ -11,7 +11,7 @@ From a business requirements standpoint, we will be building a basic Express ser
 ### Links and Resources
 
 - [GitHub Repo) (https://github.com/timothee2022/basic-express-server)
-- [HEROKU](http://xyz.com)
+- [HEROKU](https://timothee-basic-express-server.herokuapp.com/)
 
 ### Setup
 
